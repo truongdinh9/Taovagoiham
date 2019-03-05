@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let confirmshow =confirm("Do you want show a random number [00;99]?")
+    function show(confirmss) {
+        if (confirmss) {
+            return " The number is  "+ Math.floor(Math.random() * 99 + 0)
+        } else {
+            return "Tell me later if you want"
+        }
+    }
+    alert( show(confirmshow));
+</script>
+</body>
+</html>
